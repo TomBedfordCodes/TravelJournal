@@ -518,7 +518,7 @@ function Card(props) {
             _react2.default.createElement(
                 "div",
                 { className: "card--location-line" },
-                _react2.default.createElement("img", { className: "card--icon", src: "../images/pin-icon.png" }),
+                _react2.default.createElement("img", { className: "card--icon", src: "./pin-icon.png" }),
                 _react2.default.createElement(
                     "h3",
                     { className: "card--country" },
