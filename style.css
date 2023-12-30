@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.navbar--container {
+    background-color: #F55A5A; 
+    height: 55px;
+    width: 100%;
+    /* width: 550px; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    margin-bottom: 45px;
+}
+
+.navbar--icon {
+    width: 24px;
+}
+
+.navbar--title {
+    text-transform: lowercase;
+    letter-spacing: -7.5%;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+
+.cards--container {
+    /* margin: 36px 40px; */
+}
+
+
+.card {
+    display: flex;
+    gap: 1.5em;
+    padding-bottom: 18px;
+    margin: 18px 36px;
+    border-bottom: #EAEAEA solid 1px;
+}
+
+.card:last-child {
+    border-bottom: none;
+}
+
+.card--image {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card--location-line {
+    display: flex;
+    align-items: center;
+    gap: .4em;
+    margin-bottom: 0;
+}
+
+.card--country {
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1em;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    text-transform: uppercase;
+    margin-right: 1.2em;
+}
+
+.card--maps-link{
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.card--title {
+    font-size: 1.5625rem;
+    line-height: 1.2em;
+    color: #2B283A;
+    margin: 0;
+    margin-bottom: 0.75em;
+}
+
+
+.card--date-range {
+    font-weight: bold;
+    margin-bottom: 0.65em;
+}
+
+.card--description {
+    line-height: 150%;
+}
+
