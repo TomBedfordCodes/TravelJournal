@@ -16,7 +16,7 @@ export default function Card(props) {
             <img className="card--image" src={props.imageUrl} />
             <div>
                 <div className="card--location-line">
-                    <img className="card--icon" src="../images/pin-icon.png" />
+                    <img className="card--icon" src="./images/pin-icon.png" />
                     <h3 className="card--country">{props.location}</h3>
                     <p><a 
                         href={props.googleMapsUrl}
